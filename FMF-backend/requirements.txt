@@ -1,7 +1,0 @@
-Flask # The core framework.
-Flask-SQLAlchemy # For Database ORM
-Flask-Migrate # For database migrations
-Flask-JWT-Extended # For handling JWT authentication.
-Flask-Bcrypt # For hashing passwords.
-Flask-Cors # To handle CORS (Cross-Origin Resource Sharing) issues.
-gunicorn # For handling gunicorn authentication issues.
