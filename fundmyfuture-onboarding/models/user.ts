@@ -1,6 +1,9 @@
 export interface User {
     id: string;
-    email: string;
+    firstName: string;
+    lastName: string;
+    emailAddress: string;
+    phoneNumber: string;
     password: string; // hashed
     verified: boolean;
     personalDetails: {
