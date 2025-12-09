@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { CircleArrowRight } from "lucide-react";
 
 export default function StepNavigation({ next, prev }: { next?: () => void; prev?: () => void }) {
   return (
@@ -11,8 +12,9 @@ export default function StepNavigation({ next, prev }: { next?: () => void; prev
         </Button>
       )}
       {next && (
-        <Button onClick={next} className="bg-purple-600 text-white text-lg py-2 px-4">
-          Proceed →
+        <Button onClick={next} className="bg-purple-600 text-white text-lg w-36 flex items-center justify-center py-6">
+          Proceed
+          <CircleArrowRight size={28} />
         </Button>
       )}
     </div>
